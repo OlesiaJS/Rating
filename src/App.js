@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import Post from "./components/Post";
+import ratingRect from './ratingRect.svg';
+import diplom from './diplom.svg';
+import question from './question.svg';
 
-function App() {
+function App(props) {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <table className="table">
+        <thead className='racing-group'>Рейтинг Группы  <img src={question} alt="?" />
+        </thead>
+        <thead className='student'>
+          <img src={ratingRect} alt="" />
+          <span>Cтудент</span>
+          <span>Домашки /баллы</span>
+          <img src={diplom} alt="EX" />
+        </thead>
+        <tbody>
+          {props.usersList.map((item, i) => {
+            return (
+              <Post
+                index={i + 1}
+                name={item.name}
+                img={item.img}
+                homeworks={item.homeworks}
+              />
+            );
+          }
+          )}
+        </tbody>
+      </table>
     </div>
   );
 }

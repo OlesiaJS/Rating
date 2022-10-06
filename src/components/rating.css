@@ -1,0 +1,81 @@
+.avatar {
+padding: 5px;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+
+.table {
+    border-collapse: collapse;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px #0b0b0c12;
+    padding: 9px 9px 14px 20px;
+    align-items: center;
+    position: relative;
+    vertical-align: center;
+    text-align: center;
+}
+
+.racing-group{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.student {
+    color: #7b939e;
+    background-color: #bee3f4;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.student-td {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+td {
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+tr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #7b939e;
+}
+
+svg {
+    width: 24;
+    height: 240;
+    overflow: hidden;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.MarkEX {
+    background-color: #54d226;
+    color: white;
+    padding: 1px;
+}
+.MarkVG {
+    background-color: #e4ffc7;
+    color: #54d226;
+    padding: 1px;
+}
+.MarkS {
+    background-color: #d22626;
+    color: white;
+    padding: 1px;
+}
