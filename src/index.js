@@ -13,6 +13,13 @@ const users = [
     ],
   },
   {
+    name: 'Yuilia Zabuha',
+    img: 'https://lms.ithillel.ua/assets/images/userpic.jpg',
+    homeworks: [
+      57, 80, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100,
+    ],
+  },
+  {
     name: 'Denis Kyslytsia',
     img: 'https://lms.ithillel.ua/uploads/images/1b94cd2c8d068cebb1049c4c604f3ec0.jpg?width=100&height=100',
     homeworks: [
