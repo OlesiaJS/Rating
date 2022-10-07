@@ -48,8 +48,8 @@ const users = [
     ],
   },
   {
-    name: 'Олександр асаулов',
-    img: 'https://lms.ithillel.ua/uploads/images/55abf3e83c16808834dacda675354944.jpg?width=100&height=100',
+    name: 'Олександр Aсаулов',
+    img: '	https://lms.ithillel.ua/uploads/images/307b36412d16b4b1e87f4b3d914ab360.jpg?width=100&height=100',
     homeworks: [
       89, 90, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100,
     ],
