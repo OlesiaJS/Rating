@@ -14,12 +14,9 @@ function Post({ index, name, img, homeworks }) {
     };
     let sum = summArrayElements(homeworks);
     let middleMArk = Math.floor(sum / countHW);
-    console.log('middleMArk', middleMArk);
 
     function gradationChange(Mark) {
-        console.log('Mark', Mark);
         let textMark = '';
-        console.log('textMark', textMark);
         switch (true) {
             case (Mark >= 99 && Mark <= 100):
                 textMark = <span className="MarkEX">EX</span>;
