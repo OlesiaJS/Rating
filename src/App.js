@@ -1,24 +1,14 @@
-import './App.css';
 import Post from "./components/Post";
-import ratingRect from './ratingRect.svg';
-import diplom from './diplom.svg';
-import question from './question.svg';
+import HeaderList from "./components/HeaderList";
 
-function App(props) {
+function App({ usersList }) {
 
   return (
     <div className="wrapper">
       <table className="table">
-        <thead className='racing-group'>Рейтинг Группы  <img src={question} alt="?" />
-        </thead>
-        <thead className='student'>
-          <img src={ratingRect} alt="" />
-          <span>Cтудент</span>
-          <span>Домашки /баллы</span>
-          <img src={diplom} alt="EX" />
-        </thead>
+        <HeaderList />
         <tbody>
-          {props.usersList.map((item, i) => {
+          {usersList.map((item, i) => {
             return (
               <Post
                 index={i + 1}
